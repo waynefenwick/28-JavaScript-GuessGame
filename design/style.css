@@ -1,0 +1,116 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background-color: rgb(239, 231, 207);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(67, 54, 54);
+     margin: -5px;
+}
+
+header {
+     color: rgb(255, 255, 255);
+     font-size: 40px;
+     padding: 20px;
+     text-align: center;
+     text-size-adjust: 200%;
+     background-color:  rgb(109, 20, 1);
+     border-bottom: 3px solid rgb(51, 43, 43);
+}    
+
+.background {
+     background-image: linear-gradient(to bottom,rgb(110, 82, 30), rgb(242, 225, 203) );
+     border: 3px solid rgb(79, 62, 62);
+     padding: 10px;
+     height: 500px;
+     margin: 0px 150px 0px 150px;
+}
+
+.startButton {
+     position: absolute;
+     color:rgb(255, 255, 255);
+     background-color: rgb(109, 20, 1);
+     border-radius: 20px;
+     border-right: 3px solid rgb(79, 62, 62);
+     padding: 0px 30px 0px 30px;
+     margin-top: -270px;
+     margin-left: 250px;
+     cursor: pointer;
+}
+
+.timer {
+     font-size: 50px;
+     color: rgb(58, 2, 2);
+     padding: 10px;
+     position: absolute;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border: 2px solid rgb(250, 244, 255);
+     box-shadow: 0px 0px 5px 2px rgb(71, 68, 74);
+     text-align: center;
+     left: 615px;
+     top: 125px;
+     width: 100px;
+}
+
+.guessCard {
+     padding: 5px;
+     border-radius: 20px;
+     border: 2px solid rgb(95, 81, 81);
+     box-shadow: 1px 1px 10px 1px;
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     margin-top: -340px;
+     margin-left: 450px;
+     width: 470px;
+     height: 200px;
+
+}
+.wordGuess {
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center;
+     line-height: 175px;
+}    
+
+
+.winsLosses {
+     border: 3px solid rgb(51, 43, 43);
+     height: 130px;
+     width: 200px;
+     background-color: rgb(109, 20, 1);
+     position: absolute;
+     margin-top: -300px;
+     margin-left: 1000px;
+     padding: 10px;
+}
+
+.results {
+     color:rgb(255, 255, 255);
+     position: absolute;
+     margin-top: -305px;
+     margin-left: 1015px;
+     text-align: right;
+}
+
+#resetButton {
+     position: absolute;
+     margin-top: -150px;
+     margin-left: 1065px;
+     cursor: pointer;
+}
+
+.resetButton {
+     color:rgb(109, 20, 1);
+     background-color: white;
+     border-radius: 10px;
+     border-right: 3px solid rgb(79, 62, 62);
+     width: 80px;
+     height: 40px;
+}
+
+footer {
+     padding: 20px;
+     text-align: center;
+}

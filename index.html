@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./design/style.css" />
+    <title>Word Guess Game</title>
+  </head>
+
+<body>
+     <header>
+          <b>JavaScript Guess Game</b>
+     </header>
+
+     <main>
+          <section class="background">
+               <div class="timer"><span><b>15</b></span></div>
+          </section>
+          
+          <button class="startButton"><h2><i>Start!</i></h2></button>
+          
+          <section class="guessCard">
+               <div class="wordGuess">
+                    <div class="wordBlank">J _ v _ S c r _ _ t</div>
+          </section>
+
+          <section>
+               <div class="winsLosses"></div>
+                    <div class="results">
+                         <h5>Games Played: <span class="played">0</span></h5>
+                         <h5>Total Wins: <span class="win">0</span></h5>
+                         <h5>Total Losses: <span class="lose">0</span></h5>
+                    </div>
+               <button id="resetButton" class="resetButton">Reset!</button>
+          </section>
+     </main>
+
+     <footer>
+          <h2><b><i>You're improving your knowledge...<u>keep it up!</u></i></b></h2>
+     </footer>
+     
+     <script src="./design/script.js"></script>
+</body>
